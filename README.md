@@ -1,8 +1,8 @@
-# cloud-native-academy
+# Cloud Native Academy
 
 The following course is aimed at mid-senior developers, comfortable with application development who want to broaden their skillset in cloud, infrastructure-as-code, monitoring, networking and architecture. All within the raelms of Cloud Native Software. There's not a lot out there that caters for the more mature engineering audience.
 
-The main technologies in the course are: AWS (S3, Lambda), Terraform & Docker.
+**Tech:** AWS (S3, Lambda), Terraform & Docker.
 
 ## Introduction
 * Why learn Cloud Native?
@@ -17,7 +17,7 @@ The main technologies in the course are: AWS (S3, Lambda), Terraform & Docker.
 * How do you attach a domain name to your website?
 * Building a software pipeline
 
-## Getting to grips with infrastructure-as-code
+## Getting to grips with infrastructure-as-code
 * [What is Terraform?](./terraform/introduction.md)
 * How do you convert existing infrastructure to code?
 * Writing your infrastructure-as-code
@@ -29,17 +29,17 @@ The main technologies in the course are: AWS (S3, Lambda), Terraform & Docker.
 ## An introduction to Docker
 * How to create a cloud-based microservice
 
-## Observability
+## Observability
 * What is observability?
 * How to use error handling and failure scenarios?
 * How to instrument your back-end?
 * How to setup monitoring dashboards in AWS CloudWatch
 * How to setup pager duty with Terraform
 
-## Event-Driven Microservices
+## Event-Driven Microservices
 * Why use event-driven microservices?
 * Adding events to your microservices
 * Security
 
 ## What is secrets management?
-Setting up AWS KMS
+* Setting up AWS KMS
