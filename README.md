@@ -1,11 +1,8 @@
-
 # cloud-native-academy
 
-A repo containing all slides as part of the Cloud Native Academy Series.
+The following course is aimed at mid-senior developers, comfortable with application development who want to broaden their skillset in cloud, infrastructure-as-code, monitoring, networking and architecture. All within the raelms of Cloud Native Software. There's not a lot out there that caters for the more mature engineering audience.
 
-An advanced course designed to teach the advanced concepts of testing, monitoring, infrastructure-as-code and operating a full-stack application running in AWS cloud. Using NodeJS, Cypress, AWS, Docker,
-
-Who is it for: Someone who already knows front and back end technologies who wants to increase their understanding of operations and maintenance of a system.
+The main technologies in the course are: AWS (S3, Lambda), Terraform & Docker.
 
 ## Introduction
 * Why learn Cloud Native?
