@@ -1,11 +1,11 @@
 
-# cloud-native-academy
+# Cloud Native Academy
 
 A repo containing all slides as part of the Cloud Native Academy Series.
 
 An advanced course designed to teach the advanced concepts of testing, monitoring, infrastructure-as-code and operating a full-stack application running in AWS cloud. Using NodeJS, Cypress, AWS, Docker,
 
-Who is it for: Someone who already knows front and back end technologies who wants to increase their understanding of operations and maintenance of a system.
+**Who is it for:** Someone who already knows front and back end technologies who wants to increase their understanding of operations and maintenance of a system.
 
 ## Introduction
 * Why learn Cloud Native?
@@ -20,7 +20,7 @@ Who is it for: Someone who already knows front and back end technologies who wan
 * How do you attach a domain name to your website?
 * Building a software pipeline
 
-## Getting to grips with infrastructure-as-code
+## Getting to grips with infrastructure-as-code
 * [What is Terraform?](./terraform/introduction.md)
 * How do you convert existing infrastructure to code?
 * Writing your infrastructure-as-code
@@ -32,14 +32,14 @@ Who is it for: Someone who already knows front and back end technologies who wan
 ## An introduction to Docker
 * How to create a cloud-based microservice
 
-## Observability
+## Observability
 * What is observability?
 * How to use error handling and failure scenarios?
 * How to instrument your back-end?
 * How to setup monitoring dashboards in AWS CloudWatch
 * How to setup pager duty with Terraform
 
-## Event-Driven Microservices
+## Event-Driven Microservices
 * Why use event-driven microservices?
 * Adding events to your microservices
 * Security
