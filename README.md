@@ -66,7 +66,7 @@ With our Infrastructure setup for our front-end application, we'll build a softw
 * An introduction to logging, metrics and traces. 
 * How to instrument a web API with Logging and Monitoring
 
-## Module 78 Continuous Security & Performance
+## Module 8: Continuous Security & Performance
 
 * Shifting left on Security
 * What is key management? 
