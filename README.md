@@ -1,45 +1,73 @@
 # Cloud Native Academy
 
-The following course is aimed at mid-senior developers, comfortable with application development who want to broaden their skillset in cloud, infrastructure-as-code, monitoring, networking and architecture. All within the raelms of Cloud Native Software. There's not a lot out there that caters for the more mature engineering audience.
+The following course is aimed at mid to senior application developers. The course is designed to take you through the fundamental ideas and principles that are behind starting to work effectively in the cloud. In the course, we'll cover: Infrastructure As Code (with Terraform), how to launch a website on AWS S3 using Terraform, and how to create an API back-end. Throughout we'll talk about real-world considerations such as on-going maintenace, baking in security and thinking about performance. 
 
 **Tech:** AWS (S3, Lambda), Terraform & Docker.
 
 ## Introduction
+
+In this section we'll introduce Cloud Native Software Engineering as a discipline.
+
 * Why learn Cloud Native?
 * An Introduction to AWS
 * What is AWS?
 * The key AWS services
 
-## How to setup AWS on your machine
-* Setting up a cloud-based front-end
-* How do you setup S3 to host a static website?
-* How do you setup Cloudfront to CDN your website?
-* How do you attach a domain name to your website?
-* Building a software pipeline
+## Module 1: Setting up Infrastructure As Code
 
-## Getting to grips with infrastructure-as-code
-* [What is Terraform?](./terraform/introduction.md)
-* How do you convert existing infrastructure to code?
-* Writing your infrastructure-as-code
-* Writing your S3 application as Terraform
-* Setting up a cloud-based back-end
-* What is a distributed system?
-* What is a microservice?
+The first topic we'll cover is Infrastructure as code. By writing our infrastructure as code we'll make our life much easier when we learn the other Cloud Native topics such as launching web servers and configuring networks. 
 
-## An introduction to Docker
+* What is Terraform? 
+* What is Infrastructure As Code
+* Why Terraform vs. other provisioning tools
+* [The Six Fundamental Building Blocks of Terraform?](./terraform/introduction.md)
+* Your first Terraform: An S3 Bucket
+
+## Module 2: Hosting a Website on AWS
+
+In this section we'll build upon our previous discussion on Terraform and turn our previous S3 bucket into a website using CloudFront and Route53. 
+
+* Introduction to DNS: What is Route53?
+* Introduction to CDN's: What is CloudFront? 
+* Associating Route53 with CloudFront. 
+* Assigning an HTTPS with CloudFront (via ACM)
+
+## Module 3: Building a Software Pipeline
+
+With our Infrastructure setup for our front-end application, we'll build a software pipeline.
+
+* What is a software pipeline? 
+* Software pipeline theory. 
+* Setting up a software pipeline with Github Actions
+
+## Module 4: Building a backend API on AWS
+
+* What is Docker? 
+* Your first Container: A Web API. 
+* Setting up ECR for your Containers
+* Creating a pipeline for your Container
+* Provisioning your Container on AWS
+
+## Module 5: Testing your backend
+
+* An introduction to testing theory
+* How to setup backend testing
+
+## Module 6: Backend Scaling
+
+* What is High Availability? 
+* Theory of High Availability
 * How to create a cloud-based microservice
 
-## Observability
+## Module 7: Operating your backend in AWS
+
 * What is observability?
-* How to use error handling and failure scenarios?
-* How to instrument your back-end?
-* How to setup monitoring dashboards in AWS CloudWatch
-* How to setup pager duty with Terraform
+* How to setup alerts
+* An introduction to logging, metrics and traces. 
+* How to instrument a web API with Logging and Monitoring
 
-## Event-Driven Microservices
-* Why use event-driven microservices?
-* Adding events to your microservices
-* Security
+## Module 78 Continuous Security & Performance
 
-## What is secrets management?
-* Setting up AWS KMS
+* Shifting left on Security
+* What is key management? 
+* Setting up AWS KMS with your application
