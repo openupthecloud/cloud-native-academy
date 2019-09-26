@@ -5,63 +5,124 @@ slide-transition: false
 footer: thedevcoach.co.uk
 autoscale: false
 
-# LEARNING THE FUNDAMENTALS OF TERRAFORM (PART 1)
+# TERRAFORM CONCEPTS
 
- — in under an hour —
+## WHAT ARE WE TALKING ABOUT?
 
-# WHO AM I?
-
-* Lou Bichard!
-* Cloud Native Software Engineer
-* [thedevcoach.co.uk]()
-* [thedevcoach.co.uk/newsletter](thedevcoach.co.uk/newsletter)
-
-Twitter: **@loujaybee**
-Website: **thedevcoach.co.uk**
-
-![left](../lou.jpeg)
-
-## AGENDA
-* What is Terraform?
-* Why should you learn Terraform?
-* Why Terraform instead of Chef, Ansible, [insert tool]?
-* Main Terraform concepts (planning, applying, state etc)
+* What Is Terraform?
+* Why Learn Terraform?
+* 6 Main Terraform Concepts
 
 ## WHAT IS TERRAFORM?
 
-* Infrastructure-as-code tool
-* Client-based
-* Provisioning
+* Infrastructure As Code
+* Command Line Utility
 * Declarative
 
 ## WHY SHOULD YOU LEARN TERRAFORM?
 
-1. It helps you learn other cloud tools
-1. Broader skills make for a better engineer
-1. It's the best current provisioning tool
+1. Terraform helps you learn Cloud skills
+1. Infrastructure skills make a Better Engineer
+1. It's a great first Infrastructure tool
 
-## WHY TERRAFORM INSTEAD OF ANSIBLE, CHEF, PUPPET, [INSERT TOOL]?
+## TERRAFORM MAIN CONCEPTS
 
-* A standard langauge
-* Scripting of non-cloud resources
-* Reduced impact of lock-in
-
-## TERRAFORM MAIN FEATURES
-
-1. The Language (HCL)
-1. Terraform planning & applying
+1. Terraform providers
 1. Terraform state
+1. Terraform planning & applying
+1. The Language (HCL)
 1. Terraform dependency resolution
 1. Terraform file structure
-1. Terraform providers
 
-## SOME EXAMPLE TERRAFORM
+## 1. PROVIDERS
 
-[.code-highlight: 1-20]
-[.code-highlight: 1-3]
-[.code-highlight: 4-7]
-[.code-highlight: 8-20]
+```javascript
+provider "aws" {
+  region = "eu-central-1"
+}
+```
 
+* To install a provider: `terraform init`
+
+## 2. TERRAFORM STATE
+
+```javascript
+"version": 3,
+"terraform_version": "0.11.14",
+"modules": [{
+  "resources": {
+    "aws_s3_bucket.your_new_bucket": {
+      "type": "aws_s3_bucket",
+      "primary": {
+        "id": "my-first-website-cloud-nati..."
+        "attributes": {
+          "bucket": "my-first-website-..."
+          "bucket_domain_name": "my-fir..."
+          },
+
+
+
+
+⠀
+```
+
+## 3a. TERRAFORM PLAN
+
+```javascript
+Terraform will perform the following actions:
+
+  + aws_s3_bucket.your_new_bucket
+      id:                          <computed>
+      acceleration_status:         <computed>
+      bucket:                      "my_first_website..."
+      bucket_domain_name:          <computed>
+      force_destroy:               "false"
+      hosted_zone_id:              <computed>
+      region:                      <computed>
+      request_payer:               <computed>
+
+
+
+
+
+
+
+
+
+
+
+⠀
+```
+
+## 3b. TERRAFORM APPLYING
+
+```javascript
+Terraform will perform the following actions:
+
+  + aws_s3_bucket.your_new_bucket
+      id:                          <computed>
+      acceleration_status:         <computed>
+      bucket:                      "my_first_website..."
+      bucket_domain_name:          <computed>
+      force_destroy:               "false"
+      hosted_zone_id:              <computed>
+      region:                      <computed>
+      request_payer:               <computed>
+
+  Do you want to perform these actions?
+    Terraform will perform the actions described above.
+    Only 'yes' will be accepted to approve.
+
+
+
+
+
+
+
+⠀
+```
+
+## 4. TERRAFORM LANGUAGE (HCL)
 
 ```javascript
 terraform {
@@ -73,7 +134,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "your_new_bucket" {
-  bucket = "my-first-website-cloud-native-website"
+  bucket = "my-first-website-clou..."
   acl    = "public-read"
 
   website {
@@ -82,102 +143,7 @@ resource "aws_s3_bucket" "your_new_bucket" {
 }
 ```
 
-## TERRAFORM LANGUAGE (HCL)
-
-[.code-highlight: 1-10]
-[.code-highlight: 1]
-[.code-highlight: 2-6]
-
-```javascript
-terraform_command "provider_resource_name" "resource_name" {
-   "option_1": "option_1",
-   "option_2": "option_2",
-   "option_3": "option_3",
-   "option_4": "option_4",
-   "option_5": "option_5",
-}
-```
-
-## TERRAFORM PLAN
-
-[.code-highlight: 1-40]
-[.code-highlight: 5]
-[.code-highlight: 8]
-[.code-highlight: 9]
-[.code-highlight: 13]
-
-```javascript
-Lou > terraform plan
-
-An execution plan has been generated and is shown below.
-Resource actions are indicated with the following symbols:
-  + create
-
-Terraform will perform the following actions:
-
-  + aws_s3_bucket.your_new_bucket
-      id:                          <computed>
-      acceleration_status:         <computed>
-      bucket:                      "my_first_website_cloud_native_website_${random_string.random.result}"
-      bucket_domain_name:          <computed>
-      force_destroy:               "false"
-      hosted_zone_id:              <computed>
-      region:                      <computed>
-      request_payer:               <computed>
-```
-
-## TERRAFORM APPLYING
-
-[.code-highlight: 0-25]
-[.code-highlight: 18-25]
-
-```javascript
-Lou > terraform plan
-
-An execution plan has been generated and is shown below.
-Resource actions are indicated with the following symbols:
-  + create
-
-Terraform will perform the following actions:
-
-  + aws_s3_bucket.your_new_bucket
-      id:                          <computed>
-      acceleration_status:         <computed>
-      bucket:                      "my_first_website_cloud_native_website_${random_string.random.result}"
-      bucket_domain_name:          <computed>
-      force_destroy:               "false"
-      hosted_zone_id:              <computed>
-      region:                      <computed>
-      request_payer:               <computed>
-
-  Do you want to perform these actions?
-    Terraform will perform the actions described above.
-    Only 'yes' will be accepted to approve.
-```
-
-## TERRAFORM STATE
-
-```javascript
-"version": 3,
-"terraform_version": "0.11.14",
-"modules": [
-    {
-        "resources": {
-            "aws_s3_bucket.your_new_bucket": {
-                "type": "aws_s3_bucket",
-                "primary": {
-                    "id": "my-first-website-cloud-native-website-my-lovely-bucket",
-                    "attributes": {
-                        "bucket": "my-first-website-cloud-native-website-my-lovely-bucket",
-                        "bucket_domain_name": "my-first-website-cloud-native-website-my-lovely-bucket.s3.amazonaws.com",
-                    },
-```
-
-* Is an undocumented API
-* Represents what Terraform is managing
-* It's just a file, if it's a backend, it's the same file but on remote
-
-## DEPENDENCY RESOLUTION
+## 5. DEPENDENCY RESOLUTION
 
 ```javascript
 digraph {
@@ -195,10 +161,7 @@ digraph {
 }
 ```
 
-* Terraform works out how to create your resources
-* It's how you link one resource to the next
-
-## FILE STRUCTURE
+## 6. FILE STRUCTURE
 
 ```
 > Your Project
@@ -209,22 +172,4 @@ digraph {
   > resource_two.tf
 ```
 
-* Terraform is clever, define resources in any order
-* Subfolders are modules
-
-## PROVIDERS
-
-```javascript
-provider "aws" {
-  region = "eu-central-1"
-}
-```
-
-* Same syntax as resources
-* A provider can be put anywhere
-* To install a provider: `terraform init`
-
 ## THATS A WRAP
-
-* All we're going to cover today!
-* Next up: A working tutorial!
