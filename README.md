@@ -12,7 +12,7 @@ The back-end will be built on AWS Lambda
 
 As we cover each aspect, we'll discuss pro's, con's architectural decisions and trade-off's. No stone will be left underturned, and by the end you'll have a comprehensive understanding of modern application design, and creation using Cloud Native technologies. 
 
-## Why's unique about it? 
+## What's unique about it? 
 
 This course is different because unlike others, which only show you one technology, we'll show you how you can fit all the pieces together to create a full, working application. Sparing no details you'll understand how to setup your application, how to script your infrastructure, how to secure your application, and how to setup deployments on your infrastructure. 
 
