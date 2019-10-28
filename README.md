@@ -2,7 +2,7 @@
 
 ## Who is it for? 
 
-The following course is aimed at mid to senior application developers. 
+The following course is aimed at mid to senior application developers. It can act as a bolt-on to an engineering bootcamp, to give a software engineer insight into real, working practices of modern application delivery. Or, it can act as a spring-board for an engineer to understand how to organise their career learning in a new cloud-centric landscape. 
 
 ## How does it work? 
 
@@ -12,9 +12,14 @@ The back-end will be built on AWS Lambda
 
 As we cover each aspect, we'll discuss pro's, con's architectural decisions and trade-off's. No stone will be left underturned, and by the end you'll have a comprehensive understanding of modern application design, and creation using Cloud Native technologies. 
 
-## Why this course? 
+## Why's unique about it? 
 
 This course is different because unlike others, which only show you one technology, we'll show you how you can fit all the pieces together to create a full, working application. Sparing no details you'll understand how to setup your application, how to script your infrastructure, how to secure your application, and how to setup deployments on your infrastructure. 
+
+## What does this course cover? 
+
+Testing — How to effectively test an application, in the real world. 
+Monitoring — How to setup pragmatic monitoring that makes sense. 
 
 **Tech:** AWS (S3, Lambda), Terraform & Docker.
 
@@ -29,7 +34,9 @@ In this section we'll introduce Cloud Native Software Engineering as a disciplin
 * Tools of the Cloud Native Engineer
 * [Setting up an AWS Cloud Account](https://www.thedevcoach.co.uk/how-to-setup-an-aws-to-experiment-and-learn/)
 
-### Module 1: A Cloud Services Primer
+### Part 1: Getting Setup on the Cloud
+
+**Module 1: A Cloud Services Primer**
 
 A quick introduction to AWS, and the AWS main services
 
@@ -38,7 +45,7 @@ A quick introduction to AWS, and the AWS main services
 * The AWS key services landscape
 * What are the main AWS services?
 
-### Module 2: Setting up Infrastructure As Code
+**Module 2: Setting up Infrastructure As Code**
 
 The first topic we'll cover is Infrastructure as code. By writing our infrastructure as code we'll make our life much easier when we learn the other Cloud Native topics such as launching web servers and configuring networks. 
 
@@ -49,7 +56,9 @@ The first topic we'll cover is Infrastructure as code. By writing our infrastruc
 * [The Six Fundamental Building Blocks of Terraform?](https://www.thedevcoach.co.uk/the-six-fundamentals-of-terraform/)
 * Your first Terraform: An S3 Bucket
 
-### Module 3: Hosting a Website on AWS
+### Part 2: Hosting A Website on AWS
+
+**Module 1: Hosting a Website on AWS**
 
 In this section we'll build upon our previous discussion on Terraform and turn our previous S3 bucket into a website using CloudFront and Route53. 
 
@@ -58,15 +67,27 @@ In this section we'll build upon our previous discussion on Terraform and turn o
 * Associating Route53 with CloudFront. 
 * Assigning an HTTPS with CloudFront (via ACM)
 
-### Module 4: Building a Software Pipeline
+**Module 2: Deploying a front-end application**
 
 With our Infrastructure setup for our front-end application, we'll build a software pipeline.
 
 * What is a software pipeline? 
 * Software pipeline theory. 
+* How to test a front-end application.
 * Setting up a software pipeline with Github Actions
 
-### Module 5: Building a backend API on Serverless
+### Part 3: Hosting A Website on AWS
+
+**Module 1: Back-End Architecture, A Primer **
+
+* What is a distributed system?
+* Considerations in a distributed systems world
+* Serverless or Containers: How to choose? 
+* Understanding high availability
+* Why observability is important
+* How to instrument a back-end microservice (error handling, error codes, etc)
+
+**Module 1: Building a backend on Serverless**
 
 * Building a Distributed system, what you need to know. 
 * Understanding the basics of AWS Lambda
@@ -75,7 +96,7 @@ With our Infrastructure setup for our front-end application, we'll build a softw
 * [Setting up Lambda with an ALB](https://www.thedevcoach.co.uk/setup-aws-lambda-aws-alb/)
 * Setting up a DB and connecting to AWS Lambda
 
-### Module 6: Building a backend API With Containers
+**Module 2: Building a backend with Containers**
 
 * What is Docker? 
 * Your first Container: A Web API. 
@@ -83,26 +104,15 @@ With our Infrastructure setup for our front-end application, we'll build a softw
 * Creating a pipeline for your Container
 * Provisioning your Container on AWS
 
-### Module 7: Testing your application
+**Module 3: Deploying a back-end application**
 
-* An introduction to testing theory
-* How to setup backend testing
+* What to test in a back-end application
+* Continuous Delivery / Deployment
+* Unit tests, component tests, integration tests and more
+* Making the case for component tests
+* The perfect testing setup for a back-end Node.JS application 
 
-### Module 8: Backend Scaling
-
-* What is High Availability? 
-* Theory of High Availability
-* How to create a cloud-based microservice
-
-### Module 9: Operating your backend in AWS
-
-* What is observability?
-* How to setup alerts
-* An introduction to logging, metrics and traces. 
-* How to instrument a web API with Logging and Monitoring
-
-### Module 10: Continuous Security & Performance
-
-* Shifting left on Security
-* What is key management? 
-* Setting up AWS KMS with your application
+**Module 4: Monitoring your backend**
+* How to know what to monitor? 
+* Setting up CloudWatch dashboards
+* Setting up alerts
