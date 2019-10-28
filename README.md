@@ -95,7 +95,7 @@ With our Infrastructure setup for our front-end application, we'll build a softw
 * Why observability is important
 * How to instrument a back-end microservice (error handling, error codes, etc)
 
-**Module 1: Building a backend on Serverless**
+**Module 2: Building a backend on Serverless**
 
 * Building a Distributed system, what you need to know. 
 * Understanding the basics of AWS Lambda
@@ -104,7 +104,7 @@ With our Infrastructure setup for our front-end application, we'll build a softw
 * [Setting up Lambda with an ALB](https://www.thedevcoach.co.uk/setup-aws-lambda-aws-alb/)
 * Setting up a DB and connecting to AWS Lambda
 
-**Module 2: Building a backend with Containers**
+**Module 3: Building a backend with Containers**
 
 * What is Docker? 
 * Your first Container: A Web API. 
@@ -112,7 +112,7 @@ With our Infrastructure setup for our front-end application, we'll build a softw
 * Creating a pipeline for your Container
 * Provisioning your Container on AWS
 
-**Module 3: Deploying a back-end application**
+**Module 4: Deploying a back-end application**
 
 * What to test in a back-end application
 * Continuous Delivery / Deployment
@@ -120,7 +120,7 @@ With our Infrastructure setup for our front-end application, we'll build a softw
 * Making the case for component tests
 * The perfect testing setup for a back-end Node.JS application 
 
-**Module 4: Monitoring your backend**
+**Module 5: Monitoring your backend**
 * How to know what to monitor? 
 * Setting up CloudWatch dashboards
 * Setting up alerts
