@@ -23,6 +23,8 @@ Monitoring — How to setup pragmatic monitoring that makes sense.
 
 **Tech:** AWS (S3, Lambda), Terraform & Docker.
 
+---
+
 ## Introduction
 
 In this section we'll introduce Cloud Native Software Engineering as a discipline.
@@ -33,6 +35,8 @@ In this section we'll introduce Cloud Native Software Engineering as a disciplin
 * Why Cloud Native is the future of Software Engineering
 * Tools of the Cloud Native Engineer
 * [Setting up an AWS Cloud Account](https://www.thedevcoach.co.uk/how-to-setup-an-aws-to-experiment-and-learn/)
+
+---
 
 ### Part 1: Getting Setup on the Cloud
 
@@ -56,6 +60,8 @@ The first topic we'll cover is Infrastructure as code. By writing our infrastruc
 * [The Six Fundamental Building Blocks of Terraform?](https://www.thedevcoach.co.uk/the-six-fundamentals-of-terraform/)
 * Your first Terraform: An S3 Bucket
 
+---
+
 ### Part 2: Hosting A Website on AWS
 
 **Module 1: Hosting a Website on AWS**
@@ -76,9 +82,11 @@ With our Infrastructure setup for our front-end application, we'll build a softw
 * How to test a front-end application.
 * Setting up a software pipeline with Github Actions
 
-### Part 3: Hosting A Website on AWS
+---
 
-**Module 1: Back-End Architecture, A Primer **
+### Part 3: Building the Back-end
+
+**Module 1: Back-End Architecture, A Primer**
 
 * What is a distributed system?
 * Considerations in a distributed systems world
