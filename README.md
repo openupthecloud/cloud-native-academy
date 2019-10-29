@@ -2,39 +2,42 @@
 
 ## Who is it for? 
 
-The following course is aimed at mid to senior application developers. It can act as a bolt-on to an engineering bootcamp, to give a software engineer insight into real, working practices of modern application delivery. Or, it can act as a spring-board for an engineer to understand how to organise their career learning in a new cloud-centric landscape. 
+The following course is aimed at mid to level software engineers. The course acts as a bolt-on to an engineering bootcamp, or acts as a framework to help a software engineer to understand which parts of application development they are weak on. 
+
+## Why is this course different?
+
+* **Completeness** — Most courses teach individual technologies or concepts and never show how different concepts work together, such as how we manage infrastructure deployments alongside code deployments or how to structure infrastructure as code projects.
+
+* **Software engineer-oriented** — Most courses are either software engineering focused, or operations focused. But in the new world of cloud, software engineers have to be operationally aware. This course views operations from an engineering perspective. 
+
+* **Real Examples** — The course will go through one, large real-world example. A full application, with a front-end and back-end.
 
 ## How does it work? 
 
-The course works by walking you through setting up a "basic" yet comprehensive cloud-based web application. The application will comprise of a front-end, served on AWS S3, Route53 and CloudFront complete with a build, test and release pipeline. 
+The course walks you through a reference architecture. Using real-life examples to showcase all the different concepts and trade-off's such as: automated testing, observability, infrastructure as code, etc. 
 
-The back-end will be built on AWS Lambda
+[INSERT REFERENCE ARCHITECTURE]
 
-As we cover each aspect, we'll discuss pro's, con's architectural decisions and trade-off's. No stone will be left underturned, and by the end you'll have a comprehensive understanding of modern application design, and creation using Cloud Native technologies. 
+The application comprises of a front-end, served on AWS S3, Route53 and CloudFront complete with a build, test and release pipeline. The back-end will be built on AWS Lambda, and utilises X database for persistence.
 
-## What's unique about it? 
+## Technology Covered
 
-This course is different because unlike others, which only show you one technology, we'll show you how you can fit all the pieces together to create a full, working application. Sparing no details you'll understand how to setup your application, how to script your infrastructure, how to secure your application, and how to setup deployments on your infrastructure. 
-
-## What does this course cover? 
-
-Testing — How to effectively test an application, in the real world. 
-Monitoring — How to setup pragmatic monitoring that makes sense. 
-
-**Tech:** AWS (S3, Lambda), Terraform & Docker.
+* AWS S3
+* AWS Route53
+* AWS Networking
+* AWS Lambda
 
 ---
 
 ## Introduction
 
-In this section we'll introduce Cloud Native Software Engineering as a discipline.
+In this section we'll lay the foundations principles for Cloud Native engineering. 
 
+* Why Cloud Native is the future of Software Engineering
+* What differentiates Cloud Native engineering
 * [What is Cloud Native?](https://www.thedevcoach.co.uk/what-is-a-cloud-native-software-engineer/)
 * The Full Stack Engineer: Fact or fiction? 
-* What makes Cloud Native engineering different
-* Why Cloud Native is the future of Software Engineering
-* Tools of the Cloud Native Engineer
-* [Setting up an AWS Cloud Account](https://www.thedevcoach.co.uk/how-to-setup-an-aws-to-experiment-and-learn/)
+* The Cloud Native Engineer Landscape
 
 ---
 
@@ -42,23 +45,28 @@ In this section we'll introduce Cloud Native Software Engineering as a disciplin
 
 **Module 1: A Cloud Services Primer**
 
-A quick introduction to AWS, and the AWS main services
+An introduction to AWS, and the main services.
 
-* [What you need to know before learning cloud (serverless)](https://www.thedevcoach.co.uk/the-6-serverless-concepts-you-need-to-know/)
 * What is AWS?
-* The AWS key services landscape
-* What are the main AWS services?
+* The main AWS services you need to know (S3, Route53, Lambda)
+* The main AWS concepts you need to know (networking, HA?)
+* [Setting up an AWS Cloud Account](https://www.thedevcoach.co.uk/how-to-setup-an-aws-to-experiment-and-learn/)
 
 **Module 2: Setting up Infrastructure As Code**
 
+Before we begin building out our application. 
+
 The first topic we'll cover is Infrastructure as code. By writing our infrastructure as code we'll make our life much easier when we learn the other Cloud Native topics such as launching web servers and configuring networks. 
 
+* [What is Infrastructure As Code?](https://www.thedevcoach.co.uk/infrastructure-as-code/)
 * [Why Learn Terraform Before Cloud Computing?](https://www.thedevcoach.co.uk/learn-terraform-before-cloud-computing/)
 * What is Terraform? 
-* What is Infrastructure As Code
 * Why Terraform vs. other provisioning tools
 * [The Six Fundamental Building Blocks of Terraform?](https://www.thedevcoach.co.uk/the-six-fundamentals-of-terraform/)
 * Your first Terraform: An S3 Bucket
+* Setting up a Terraform pipeline in Github Actions
+* Best practices for a Terraform project (alongside code, etc)
+* How to setup Terraform repo's with remote state and link them
 
 ---
 
@@ -68,10 +76,13 @@ The first topic we'll cover is Infrastructure as code. By writing our infrastruc
 
 In this section we'll build upon our previous discussion on Terraform and turn our previous S3 bucket into a website using CloudFront and Route53. 
 
+* Introduction to S3: Making your first bucket.
+* What you need to know about CDN's? (TTL, Refreshing)
+* What is CloudFront? 
+* What are HTTPS certificates (what is ACM)
+* Assinging HTTPS certificates to a CloudFront distributions
 * Introduction to DNS: What is Route53?
-* Introduction to CDN's: What is CloudFront? 
-* Associating Route53 with CloudFront. 
-* Assigning an HTTPS with CloudFront (via ACM)
+* Associating a Route53 with CloudFront. 
 
 **Module 2: Deploying a front-end application**
 
@@ -79,7 +90,9 @@ With our Infrastructure setup for our front-end application, we'll build a softw
 
 * What is a software pipeline? 
 * Software pipeline theory. 
+* Setting up a front-end software pipeline.
 * How to test a front-end application.
+* Best practices for monitoring on a front-end application in S3
 * Setting up a software pipeline with Github Actions
 
 ---
@@ -89,11 +102,11 @@ With our Infrastructure setup for our front-end application, we'll build a softw
 **Module 1: Back-End Architecture, A Primer**
 
 * What is a distributed system?
-* Considerations in a distributed systems world
+* Considerations in a distributed systems world.
 * Serverless or Containers: How to choose? 
-* Understanding high availability
-* Why observability is important
-* How to instrument a back-end microservice (error handling, error codes, etc)
+* Understanding high availability.
+* Why observability is important.
+* How to instrument a back-end microservice (error handling, error codes, etc).
 
 **Module 2: Building a backend on Serverless**
 
