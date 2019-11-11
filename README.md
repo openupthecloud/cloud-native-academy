@@ -111,7 +111,7 @@ With our Infrastructure setup for our front-end application, we'll build a softw
 
 **Module 2: Building a backend on Serverless**
 
-* Building a Distributed system, what you need to know. 
+* [Concepts you need to know before trying Serverless](https://www.thedevcoach.co.uk/the-6-serverless-concepts-you-need-to-know/)
 * Understanding the basics of AWS Lambda
 * [Setting up CloudWatch for logs](https://www.thedevcoach.co.uk/lambda-logging-cloudwatch/)
 * [Zipping Lambda's and publishing to S3](https://www.thedevcoach.co.uk/zipped-lambda-s3-github-actions/)
