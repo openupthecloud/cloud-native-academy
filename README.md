@@ -59,6 +59,7 @@ Before we begin building out our application.
 The first topic we'll cover is Infrastructure as code. By writing our infrastructure as code we'll make our life much easier when we learn the other Cloud Native topics such as launching web servers and configuring networks. 
 
 * [What is Infrastructure As Code?](https://www.thedevcoach.co.uk/infrastructure-as-code/)
+* [What is immutable infrastructure?](https://www.thedevcoach.co.uk/what-is-immutable-infrastructure/)
 * [Why Learn Terraform Before Cloud Computing?](https://www.thedevcoach.co.uk/learn-terraform-before-cloud-computing/)
 * What is Terraform? 
 * Why Terraform vs. other provisioning tools
@@ -112,6 +113,7 @@ With our Infrastructure setup for our front-end application, we'll build a softw
 
 * Building a Distributed system, what you need to know. 
 * Understanding the basics of AWS Lambda
+* [Setting up CloudWatch for logs](https://www.thedevcoach.co.uk/lambda-logging-cloudwatch/)
 * [Zipping Lambda's and publishing to S3](https://www.thedevcoach.co.uk/zipped-lambda-s3-github-actions/)
 * What is a Load Balancer and why would you need one? 
 * [Setting up Lambda with an ALB](https://www.thedevcoach.co.uk/setup-aws-lambda-aws-alb/)
