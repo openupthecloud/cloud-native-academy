@@ -136,6 +136,7 @@ With our Infrastructure setup for our front-end application, we'll build a softw
 * The perfect testing setup for a back-end Node.JS application 
 
 **Module 5: Monitoring your backend**
-* How to know what to monitor? 
+* What are the different types of monitoring you can do?
+* [How to structure your logs with phat-events](https://www.thedevcoach.co.uk/phat-event-logging/)
 * Setting up CloudWatch dashboards
 * Setting up alerts
