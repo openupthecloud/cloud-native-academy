@@ -45,7 +45,6 @@ In this section we'll lay the foundations principles for Cloud Native engineerin
 
 An introduction to AWS, and the main services.
 
-* What is AWS? 
 * [What and Where to Start Learning AWS as a Beginner](https://www.thedevcoach.co.uk/start-learning-aws-beginner/)
 * [Setting up an AWS Cloud Account](https://www.thedevcoach.co.uk/how-to-setup-an-aws-to-experiment-and-learn/)
 
