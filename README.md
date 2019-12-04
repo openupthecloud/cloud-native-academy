@@ -33,11 +33,9 @@ The application comprises of a front-end, served on AWS S3, Route53 and CloudFro
 
 In this section we'll lay the foundations principles for Cloud Native engineering. 
 
-* Why Cloud Native is the future of Software Engineering
-* What differentiates Cloud Native engineering
 * [What is Cloud Native?](https://www.thedevcoach.co.uk/what-is-a-cloud-native-software-engineer/)
-* The Full Stack Engineer: Fact or fiction? 
-* The Cloud Native Engineer Landscape
+* How much cloud should a software engineer know? 
+* What can be considered cloud engineering? 
 
 ---
 
