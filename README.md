@@ -48,7 +48,7 @@ An introduction to AWS, and the main services.
 * [What and Where to Start Learning AWS as a Beginner](https://www.thedevcoach.co.uk/start-learning-aws-beginner/)
 * [Setting up an AWS Cloud Account](https://www.thedevcoach.co.uk/how-to-setup-an-aws-to-experiment-and-learn/)
 
-**Module 2: Software Pipelines **
+**Module 2: Software Pipelines**
 
 An overview of software pipelines, what they are and why you need one. 
 
