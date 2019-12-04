@@ -47,9 +47,8 @@ In this section we'll lay the foundations principles for Cloud Native engineerin
 
 An introduction to AWS, and the main services.
 
-* What is AWS?
-* The main AWS services you need to know (S3, Route53, Lambda)
-* The main AWS concepts you need to know (networking, HA?)
+* What is AWS? 
+* [What and where to start learning AWS as a beginner](https://www.thedevcoach.co.uk/start-learning-aws-beginner/)
 * [Setting up an AWS Cloud Account](https://www.thedevcoach.co.uk/how-to-setup-an-aws-to-experiment-and-learn/)
 
 **Module 2: Setting up Infrastructure As Code**
