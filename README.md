@@ -48,17 +48,24 @@ An introduction to AWS, and the main services.
 * [What and Where to Start Learning AWS as a Beginner](https://www.thedevcoach.co.uk/start-learning-aws-beginner/)
 * [Setting up an AWS Cloud Account](https://www.thedevcoach.co.uk/how-to-setup-an-aws-to-experiment-and-learn/)
 
-**Module 2: Setting up Infrastructure As Code**
+**Module 2: Software Pipelines **
+
+An overview of software pipelines, what they are and why you need one. 
+
+* Software pipeline theory (what is a pipeline)
+* The market for software pipeline tooling in 2020
+
+**Module 3: Setting up Infrastructure As Code**
 
 Before we begin building out our application. 
 
 The first topic we'll cover is Infrastructure as code. By writing our infrastructure as code we'll make our life much easier when we learn the other Cloud Native topics such as launching web servers and configuring networks. 
 
 * [What is Infrastructure As Code?](https://www.thedevcoach.co.uk/infrastructure-as-code/)
-* [What is immutable infrastructure?](https://www.thedevcoach.co.uk/what-is-immutable-infrastructure/)
-* [Why Learn Terraform Before Cloud Computing?](https://www.thedevcoach.co.uk/learn-terraform-before-cloud-computing/)
-* What is Terraform? 
+* [What is Immutable Infrastructure?](https://www.thedevcoach.co.uk/what-is-immutable-infrastructure/)
+* What is Terraform?
 * Why Terraform vs. other provisioning tools
+* [Why Learn Terraform Before Cloud Computing?](https://www.thedevcoach.co.uk/learn-terraform-before-cloud-computing/)
 * [The Six Fundamental Building Blocks of Terraform?](https://www.thedevcoach.co.uk/the-six-fundamentals-of-terraform/)
 * Your first Terraform: An S3 Bucket
 * Setting up a Terraform pipeline in Github Actions
@@ -83,7 +90,7 @@ In this section we'll build upon our previous discussion on Terraform and turn o
 
 **Module 2: Deploying a front-end application**
 
-With our Infrastructure setup for our front-end application, we'll build a software pipeline.
+With our Infrastructure setup for our front-end application, we'll build a software 
 
 * What is a software pipeline? 
 * Software pipeline theory. 
