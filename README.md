@@ -67,8 +67,7 @@ The first topic we'll cover is Infrastructure as code. By writing our infrastruc
 * Why Terraform vs. other provisioning tools
 * [Why Learn Terraform Before Cloud Computing?](https://www.thedevcoach.co.uk/learn-terraform-before-cloud-computing/)
 * [The Six Fundamental Building Blocks of Terraform?](https://www.thedevcoach.co.uk/the-six-fundamentals-of-terraform/)
-* Your first Terraform: An S3 Bucket
-* Setting up a Terraform pipeline in Github Actions
+* [Your first Terraform: An S3 Bucket](https://www.thedevcoach.co.uk/terraform-github-actions/)
 * Best practices for a Terraform project (alongside code, etc)
 * How to setup Terraform repo's with remote state and link them
 
