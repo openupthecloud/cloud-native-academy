@@ -110,6 +110,7 @@ In this module we'll cover the different options you've got for building a back-
 * Understanding high availability.
 * Why observability is important.
 * What is an asyncronous architecture?
+* [Building asynchronous architectures with SQS](https://www.thedevcoach.co.uk/aws-sqs-and-lambda/)
 * What is a load balancer? 
 * How to instrument a back-end microservice (error handling, error codes, etc).
 
@@ -118,7 +119,7 @@ In this module we'll cover the different options you've got for building a back-
 * What is AWS Lambda?
 * [Concepts you need to know before trying Serverless](https://www.thedevcoach.co.uk/the-6-serverless-concepts-you-need-to-know/)
 * Setting up a basic AWS Lambda using Terraform
-* Getting familiar with the AWS Lambda Console
+* [Getting familiar with the AWS Lambda Console](https://www.thedevcoach.co.uk/understand-aws-lambda-console/)
 * [Setting up CloudWatch for logs](https://www.thedevcoach.co.uk/lambda-logging-cloudwatch/)
 * [Zipping Lambda's and publishing to S3](https://www.thedevcoach.co.uk/zipped-lambda-s3-github-actions/)
 * What are the events that can trigger Lambda?
