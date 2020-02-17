@@ -1,3 +1,4 @@
+Terraform Kick Start 2.0
 
 ## What is Terraform?
 
@@ -12,6 +13,8 @@
 
 * [Setting Up Terraform With Github Actions](https://www.thedevcoach.co.uk/setup-terraform-aws-github-actions/)
 * [Create an S3 website using Terraform](https://www.thedevcoach.co.uk/terraform-github-actions/)
+* Managing & Understanding Terraform State
+* X Terraform Best Practices (tags, dependency naming, folder structure)
 
 ## Advanced Terraform
 
