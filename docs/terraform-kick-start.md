@@ -7,7 +7,11 @@
 * [What is Infrastructure As Code?](https://www.thedevcoach.co.uk/infrastructure-as-code/)
 * [Declarative Infrastructure As Code](https://www.thedevcoach.co.uk/declarative-vs-imperative-infra/)
 * [The Six Fundamentals Of Terraform](https://www.thedevcoach.co.uk/the-six-fundamentals-of-terraform/)
+
+## Get Hands On With Terraform 
+
 * [Setting Up Terraform With Github Actions](https://www.thedevcoach.co.uk/setup-terraform-aws-github-actions/)
+* [Create an S3 website using Terraform](https://www.thedevcoach.co.uk/terraform-github-actions/)
 
 ## Advanced Terraform
 
