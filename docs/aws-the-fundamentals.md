@@ -1,5 +1,5 @@
 
-## What is AWS?
+## What is AWS?
 
 * [Where (And How?) to start learning AWS as a beginner](https://www.thedevcoach.co.uk/start-learning-aws-beginner/)
 
