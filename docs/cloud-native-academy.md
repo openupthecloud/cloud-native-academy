@@ -125,6 +125,7 @@ In this module we'll cover the different options you've got for building a back-
 * What are the events that can trigger Lambda?
 * [Setting up Lambda with an ALB](https://www.thedevcoach.co.uk/setup-aws-lambda-aws-alb/)
 * Setting up a DB and connecting to AWS Lambda
+* [Encrypting Environment Variables With KMS](https://www.thedevcoach.co.uk/kms-aws-lambda/)
 
 **Module 3: Building a backend with Containers**
 
