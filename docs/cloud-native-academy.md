@@ -85,7 +85,7 @@ The first topic we'll cover is Infrastructure as code. By writing our infrastruc
 
 In this section we'll build upon our previous discussion on Terraform and turn our previous S3 bucket into a website using CloudFront and Route53. 
 
-* Introduction to S3: Making your first bucket.
+* [Introduction to S3: Making your first bucket](https://www.thedevcoach.co.uk/terraform-github-actions/)
 * What you need to know about CDN's? (TTL, Refreshing)
 * What is CloudFront? 
 * What are HTTPS certificates (what is ACM)
