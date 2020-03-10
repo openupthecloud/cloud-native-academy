@@ -92,7 +92,6 @@ In this section we'll build upon our previous discussion on Terraform and turn o
 * Assinging HTTPS certificates to a CloudFront distributions
 * Introduction to DNS: What is Route53?
 * Associating a Route53 with CloudFront. 
-* Setting up a software pipeline with Github Actions
 
 ---
 
