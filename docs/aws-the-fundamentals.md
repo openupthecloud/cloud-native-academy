@@ -1,6 +1,8 @@
 
 ## What is AWS?
 
+* What is a Cloud Provider and why would you use one? 
+* Why AWS? 
 * [Where (And How?) to start learning AWS as a beginner](https://www.thedevcoach.co.uk/start-learning-aws-beginner/)
 
 ## Getting Started on AWS
