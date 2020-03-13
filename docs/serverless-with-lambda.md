@@ -21,9 +21,14 @@ Serverless with Lambda: Zero to Hero
 * [Logs with AWS Lambda](https://www.thedevcoach.co.uk/lambda-logging-cloudwatch/)
 * [Lambda & ALB](https://www.thedevcoach.co.uk/setup-aws-lambda-aws-alb/)
 
-**Advanced Lambda**
-
+**Lambda & Events**
 * Understanding Lambda Events
-* [Encrypting Lambda Variables With KMS](https://www.thedevcoach.co.uk/kms-aws-lambda/)
+* Advantages of event-driven architecture
+* Dead Letter Queues & Lambda
+* Lambda Retries
 * [Using Lambda With SQS](https://www.thedevcoach.co.uk/aws-sqs-and-lambda/)
 * [Scheduled Lambdas](https://www.thedevcoach.co.uk/terraform-lambda-scheduled-event/)
+
+**Advanced Lambda**
+
+* [Encrypting Lambda Variables With KMS](https://www.thedevcoach.co.uk/kms-aws-lambda/)
