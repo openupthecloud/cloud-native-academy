@@ -6,6 +6,7 @@ Serverless with Lambda: Zero to Hero
 * What is Severless?
 * What is AWS Lambda? 
 * Serverless Use Cases
+* Are containers Serverless? (e.g. Fargate)
 * Lambda & Microservices
 * [Do you need to break down into microservices?](https://www.thedevcoach.co.uk/4-signs-break-down-app-microservices/)
 * [Concepts to understand before Serverless](https://www.thedevcoach.co.uk/the-6-serverless-concepts-you-need-to-know/)
