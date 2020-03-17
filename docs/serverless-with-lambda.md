@@ -12,7 +12,7 @@ Serverless with Lambda: Zero to Hero
 * [Concepts to understand before Serverless](https://www.thedevcoach.co.uk/the-6-serverless-concepts-you-need-to-know/)
 * Benefits of Serverless
 * Drawbacks of Serverless
-* Things I wish I knew about Lambda before I started
+* [Misconceptions of Serverless & Lambda](https://www.thedevcoach.co.uk/misconceptions-serverless-aws-lambda/)
 
 **Up & Running With Lambda**
 
