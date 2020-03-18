@@ -1,35 +1,37 @@
 
 Serverless with Lambda: Zero to Hero
 
-## Serverless Intro
+## Serverless Overview
 
 * What is Severless?
-* What is AWS Lambda? 
-* Serverless Use Cases
-* Are containers Serverless? (e.g. Fargate)
-* Lambda & Microservices
-* [Do you need to break down into microservices?](https://www.thedevcoach.co.uk/4-signs-break-down-app-microservices/)
-* [Concepts to understand before Serverless](https://www.thedevcoach.co.uk/the-6-serverless-concepts-you-need-to-know/)
+* What can you use Serverless for?
 * Benefits of Serverless
 * Drawbacks of Serverless
-* [Misconceptions of Serverless & Lambda](https://www.thedevcoach.co.uk/misconceptions-serverless-aws-lambda/)
 
 **Up & Running With Lambda**
 
+* What is AWS Lambda? 
+* [Misconceptions of Serverless & Lambda](https://www.thedevcoach.co.uk/misconceptions-serverless-aws-lambda/)
+* What are good beginner projects for Serverless?
 * [Understanding the Lambda Console](https://www.thedevcoach.co.uk/understand-aws-lambda-console/)
 * Lambda Setup Using Terraform & Github Actions
-* Creating Your First Lambda Function
+* Creating A Lambda Function (Using Terraform & Github Actions)
 * [Logs with AWS Lambda](https://www.thedevcoach.co.uk/lambda-logging-cloudwatch/)
 * [Lambda & ALB](https://www.thedevcoach.co.uk/setup-aws-lambda-aws-alb/)
 
-**Lambda & Events**
-* Understanding Lambda Events
+---
+
+Future content ideas...
+
+**Lambda & Event-Driven**
+* What is event-driven architecture?
 * Advantages of event-driven architecture
 * Dead Letter Queues & Lambda
-* Lambda Retries
-* [Using Lambda With SQS](https://www.thedevcoach.co.uk/aws-sqs-and-lambda/)
-* [Scheduled Lambdas](https://www.thedevcoach.co.uk/terraform-lambda-scheduled-event/)
+* How lambda retries work and how to manage them
+* [How to use Lambda With SQS](https://www.thedevcoach.co.uk/aws-sqs-and-lambda/)
+* [How to schedule a Lambda invocation](https://www.thedevcoach.co.uk/terraform-lambda-scheduled-event/)
 
 **Advanced Lambda**
 
 * [Encrypting Lambda Variables With KMS](https://www.thedevcoach.co.uk/kms-aws-lambda/)
+* Are containers Serverless? (e.g. Fargate)
