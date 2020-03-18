@@ -1,14 +1,14 @@
 
 Serverless with Lambda: Zero to Hero
 
-## Serverless Overview
+**Part 1: Serverless Overview**
 
 * What is Severless?
 * What can you use Serverless for?
 * Benefits of Serverless
 * Drawbacks of Serverless
 
-**Up & Running With Lambda**
+**Part 2: Up & Running With Lambda**
 
 * What is AWS Lambda? 
 * [Misconceptions of Serverless & Lambda](https://www.thedevcoach.co.uk/misconceptions-serverless-aws-lambda/)
