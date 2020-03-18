@@ -5,7 +5,7 @@ A collection of courses on Cloud Native that comprise of different articles.
 
 **Course Outlines**
 
-These are the course outlines that eventually become fully blown [Courses](https://courses.thedevcoach.co.uk)
+These are the course outlines that eventually become fully blown [courses](https://courses.thedevcoach.co.uk)
 
 * [Terraform Kick Start](docs/terraform-kick-start.md)
 * [Serverless with Lambda: Zero to Hero](docs/serverless-with-lambda.md)
