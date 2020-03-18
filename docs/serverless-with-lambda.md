@@ -1,5 +1,7 @@
 
-Serverless with Lambda: Zero to Hero
+## Serverless with Lambda: Zero to Hero
+
+**Purpose** This course is supposed to help a complete beginner understand what they need to know about AWS Lambda and get started. 
 
 **Part 1: Serverless Overview**
 
