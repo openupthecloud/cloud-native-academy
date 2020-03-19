@@ -12,9 +12,10 @@
 
 **Part 2: Up & Running With Lambda**
 
-* What is AWS Lambda? 
+* What is AWS Lambda?
 * [Misconceptions of Serverless & Lambda](https://www.thedevcoach.co.uk/misconceptions-serverless-aws-lambda/)
 * What are good beginner projects for Serverless?
+* How to get started with AWS Lambda (what are your options)?
 * [Understanding the Lambda Console](https://www.thedevcoach.co.uk/understand-aws-lambda-console/)
 * Lambda Setup Using Terraform & Github Actions
 * Creating A Lambda Function (Using Terraform & Github Actions)
