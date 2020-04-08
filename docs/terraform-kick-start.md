@@ -2,10 +2,10 @@ Terraform Kick Start 2.0
 
 ## What is Terraform?
 
+* [What is Infrastructure As Code?](https://www.thedevcoach.co.uk/infrastructure-as-code/)
+* [Learn Terraform Before Cloud](https://www.thedevcoach.co.uk/learn-terraform-before-cloud-computing/)
 * What is Terraform?
 * Terraform vs CloudFormation vs etc. 
-* [Learn Terraform Before Cloud](https://www.thedevcoach.co.uk/learn-terraform-before-cloud-computing/)
-* [What is Infrastructure As Code?](https://www.thedevcoach.co.uk/infrastructure-as-code/)
 * [Declarative Infrastructure As Code](https://www.thedevcoach.co.uk/declarative-vs-imperative-infra/)
 * [The Six Fundamentals Of Terraform](https://www.thedevcoach.co.uk/the-six-fundamentals-of-terraform/)
 
