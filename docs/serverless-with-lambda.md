@@ -5,13 +5,7 @@
 
 **Part 1: Serverless Overview**
 
-* What is Severless?
-* What can you use Serverless for?
-* Benefits of Serverless
-* Drawbacks of Serverless
-
-**Part 2: Up & Running With Lambda**
-
+* Serverless: An introduction
 * What is AWS Lambda?
 * [Misconceptions of Serverless & Lambda](https://www.thedevcoach.co.uk/misconceptions-serverless-aws-lambda/)
 * [Good Serverless beginner projects](https://www.thedevcoach.co.uk/serverless-beginner-project/)
