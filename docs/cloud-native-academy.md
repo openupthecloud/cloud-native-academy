@@ -70,8 +70,7 @@ The first topic we'll cover is Infrastructure as code. By writing our infrastruc
 
 * [What is Infrastructure As Code?](https://www.thedevcoach.co.uk/infrastructure-as-code/)
 * [What is Immutable Infrastructure?](https://www.thedevcoach.co.uk/what-is-immutable-infrastructure/)
-* What is Terraform?
-* Why Terraform vs. other provisioning tools
+* [What is Terraform?](https://www.thedevcoach.co.uk/what-is-terraform/)
 * [Why Learn Terraform Before Cloud Computing?](https://www.thedevcoach.co.uk/learn-terraform-before-cloud-computing/)
 * [The Six Fundamental Building Blocks of Terraform?](https://www.thedevcoach.co.uk/the-six-fundamentals-of-terraform/)
 * [Building an infrastructure-as-code software pipeline](https://www.thedevcoach.co.uk/setup-terraform-aws-github-actions/)
