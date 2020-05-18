@@ -112,6 +112,8 @@ In this module we'll cover the different options you've got for building a back-
 
 **Module 2: Building a backend on Serverless**
 
+* What is Serverless?
+* FaaS vs Serverless vs Serverless Inc
 * What is AWS Lambda?
 * [Concepts you need to know before trying Serverless](https://www.thedevcoach.co.uk/the-6-serverless-concepts-you-need-to-know/)
 * Setting up a basic AWS Lambda using Terraform
