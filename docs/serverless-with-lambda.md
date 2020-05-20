@@ -7,6 +7,8 @@
 
 * Serverless: An introduction
 * What is AWS Lambda?
+* Serverless vs Functions vs FaaS vs ...: What's the difference?
+* Serverless Framework: An Overview.
 * [Misconceptions of Serverless & Lambda](https://www.thedevcoach.co.uk/misconceptions-serverless-aws-lambda/)
 * [Good Serverless beginner projects](https://www.thedevcoach.co.uk/serverless-beginner-project/)
 * [Serverless frameworks / approaches compared](https://www.thedevcoach.co.uk/serverless-approaches-comparison/)
