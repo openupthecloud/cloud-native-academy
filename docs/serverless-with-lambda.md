@@ -14,9 +14,9 @@
 * [Good Serverless beginner projects](https://www.thedevcoach.co.uk/serverless-beginner-project/)
 * [Serverless frameworks / approaches compared](https://www.thedevcoach.co.uk/serverless-approaches-comparison/)
 * [Understanding the Lambda Console](https://www.thedevcoach.co.uk/understand-aws-lambda-console/)
+* [Setup CloudWatch Logs with AWS Lambda](https://www.thedevcoach.co.uk/lambda-logging-cloudwatch/)
+* [Setup an ALB with Lambda](https://www.thedevcoach.co.uk/setup-aws-lambda-aws-alb/)
 * Creating A Lambda Function (Using Terraform & Github Actions)
-* [Logs with AWS Lambda](https://www.thedevcoach.co.uk/lambda-logging-cloudwatch/)
-* [Lambda & ALB](https://www.thedevcoach.co.uk/setup-aws-lambda-aws-alb/)
 
 ---
 
