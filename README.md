@@ -137,7 +137,7 @@ In this section we'll lay the foundations principles for Cloud Native engineerin
 * [How to use Lambda With SQS](https://www.thedevcoach.co.uk/aws-sqs-and-lambda/)
 * [How to schedule a Lambda invocation](https://www.thedevcoach.co.uk/terraform-lambda-scheduled-event/)
 
-### Module 3.2: Building a backend with Containers
+### Module 3.3: Building a backend with Containers
 
 * What is Docker? 
 * Your first Container: A Web API. 
