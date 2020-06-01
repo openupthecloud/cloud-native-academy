@@ -45,8 +45,6 @@ In this section we'll lay the foundations principles for Cloud Native engineerin
 
 ### Module 1: Cloud Services, A Primer
 
-Firstly we're going to give an introduction to the Cloud, what the Cloud is, why you'd want to use it and the advantages and disadvantages. By the end of this module you should be clear on the benefits of Cloud and be familiar with basic concepts in AWS. 
-
 * [What and Where to Start Learning AWS as a Beginner](https://www.thedevcoach.co.uk/start-learning-aws-beginner/)
 * [Setting up an AWS Cloud Account](https://www.thedevcoach.co.uk/how-to-setup-an-aws-to-experiment-and-learn/)
 * [How to setup your AWS account to experiment and learn](https://www.thedevcoach.co.uk/how-to-setup-an-aws-to-experiment-and-learn/)
@@ -54,17 +52,11 @@ Firstly we're going to give an introduction to the Cloud, what the Cloud is, why
 
 ### Module 2: Software Pipelines
 
-Before we go onto infrastructure we need to discuss software pipelines. We'll do that through Github Actions. A free online CI tool that allows you to automate software pipelines easily. 
-
 * What is a software pipeline? 
 * What is container-based CI?
 * An introduction to Github Actions
 
-### Module 3: Setting up Infrastructure As Code**
-
-Before we begin building out our application. 
-
-The first topic we'll cover is Infrastructure as code. By writing our infrastructure as code we'll make our life much easier when we learn the other Cloud Native topics such as launching web servers and configuring networks. 
+### Module 3: Setting up Infrastructure As Code
 
 * [What is Infrastructure As Code?](https://www.thedevcoach.co.uk/infrastructure-as-code/)
 * [What is Immutable Infrastructure?](https://www.thedevcoach.co.uk/what-is-immutable-infrastructure/)
@@ -100,9 +92,7 @@ The first topic we'll cover is Infrastructure as code. By writing our infrastruc
 
 ## Part 2: Building a front-end on AWS
 
-### Module 1: Hosting a Website on AWS
-
-In this section we'll build upon our previous discussion on Terraform and turn our previous S3 bucket into a website using CloudFront and Route53. 
+### Module 2.1: Hosting a Website on AWS
 
 * [Introduction to S3: Making your first bucket](https://www.thedevcoach.co.uk/terraform-github-actions/)
 * What you need to know about CDN's? (TTL, Refreshing)
@@ -116,9 +106,7 @@ In this section we'll build upon our previous discussion on Terraform and turn o
 
 ## Part 3: Building the Back-end
 
-### Module 1: Back-End Architecture, A Primer
-
-In this module we'll cover the different options you've got for building a back-end. We'll cover the two main patterns for building back-end applications: container-based and serverless-based. After this module we'll create a back-end in both a Container based solution, and also a Serverless based solution. 
+### Module 3.1: Back-End Architecture, A Primer
 
 * What is a Distributed System?
 * Considerations in a distributed systems world.
@@ -130,7 +118,7 @@ In this module we'll cover the different options you've got for building a back-
 * What is a load balancer? 
 * How to instrument a back-end microservice (error handling, error codes, etc).
 
-### Module 2: Building a backend on Serverless
+### Module 3.2: Building a backend on Serverless
 
 * Serverless: An introduction
 * FaaS vs Serverless vs Serverless Inc
@@ -154,7 +142,7 @@ In this module we'll cover the different options you've got for building a back-
 * Setting up a DB and connecting to AWS Lambda
 * Setting up a basic AWS Lambda using Terraform
 
-### Module 3: Building a backend with Containers
+### Module 3.2: Building a backend with Containers
 
 * What is Docker? 
 * Your first Container: A Web API. 
@@ -162,7 +150,9 @@ In this module we'll cover the different options you've got for building a back-
 * Creating a pipeline for your Container
 * Provisioning your Container on AWS
 
-### Module 4: Deploying a back-end application
+---
+
+## Part 4: Deploying a back-end application
 
 * What to test in a back-end application
 * Continuous Delivery / Deployment
@@ -170,7 +160,10 @@ In this module we'll cover the different options you've got for building a back-
 * Making the case for component tests
 * The perfect testing setup for a back-end Node.JS application 
 
-### Module 5: Monitoring your backend
+---
+
+## Part 5: Monitoring your backend
+
 * What are the different types of monitoring you can do?
 * [How to structure your logs with phat-events](https://www.thedevcoach.co.uk/phat-event-logging/)
 * Setting up CloudWatch dashboards
