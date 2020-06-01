@@ -63,7 +63,6 @@ In this section we'll lay the foundations principles for Cloud Native engineerin
 * [What is Infrastructure As Code?](https://www.thedevcoach.co.uk/infrastructure-as-code/)
 * [What is Immutable Infrastructure?](https://www.thedevcoach.co.uk/what-is-immutable-infrastructure/)
 * [Declarative Infrastructure As Code](https://www.thedevcoach.co.uk/declarative-vs-imperative-infra/)
-
 * [What is Terraform?](https://www.thedevcoach.co.uk/what-is-terraform/)
 * Terraform vs CloudFormation vs etc. 
 * [Why Learn Terraform Before Cloud Computing?](https://www.thedevcoach.co.uk/learn-terraform-before-cloud-computing/)
@@ -113,26 +112,25 @@ In this section we'll lay the foundations principles for Cloud Native engineerin
 ### Module 3.2: Building a backend on Serverless
 
 * Serverless: An introduction
-* FaaS vs Serverless vs Serverless Inc
-* Characteristics of Serverless
-* What is AWS Lambda?
 * Serverless vs Functions vs FaaS vs ...: What's the difference?
-* Serverless Framework: An Overview.
+* What is AWS Lambda?
+* What are the events that can trigger Lambda?
+* Creating A Lambda Function (Using Terraform & Github Actions)
+* [Concepts you need to know before trying Serverless](https://www.thedevcoach.co.uk/the-6-serverless-concepts-you-need-to-know/)
+* [Serverless frameworks / approaches compared](https://www.thedevcoach.co.uk/serverless-approaches-comparison/)
 * Difference in Serverless between the Cloud Providers
 * [Misconceptions of Serverless & Lambda](https://www.thedevcoach.co.uk/misconceptions-serverless-aws-lambda/)
-* [Good Serverless beginner projects](https://www.thedevcoach.co.uk/serverless-beginner-project/)
-* [Serverless frameworks / approaches compared](https://www.thedevcoach.co.uk/serverless-approaches-comparison/)
 * [Understanding the Lambda Console](https://www.thedevcoach.co.uk/understand-aws-lambda-console/)
 * [Setup CloudWatch Logs with AWS Lambda](https://www.thedevcoach.co.uk/lambda-logging-cloudwatch/)
-* [Concepts you need to know before trying Serverless](https://www.thedevcoach.co.uk/the-6-serverless-concepts-you-need-to-know/)
+* [Good Serverless beginner projects](https://www.thedevcoach.co.uk/serverless-beginner-project/)
 * [Setup an ALB with Lambda](https://www.thedevcoach.co.uk/setup-aws-lambda-aws-alb/)
+* Setting up a DB and connecting to AWS Lambda
+* Setting up a basic AWS Lambda using Terraform
+
+***Extra Credits**
 * [Encrypting Environment Variables With KMS](https://www.thedevcoach.co.uk/kms-aws-lambda/)
 * [How to use Lambda With SQS](https://www.thedevcoach.co.uk/aws-sqs-and-lambda/)
 * [How to schedule a Lambda invocation](https://www.thedevcoach.co.uk/terraform-lambda-scheduled-event/)
-* Creating A Lambda Function (Using Terraform & Github Actions)
-* What are the events that can trigger Lambda?
-* Setting up a DB and connecting to AWS Lambda
-* Setting up a basic AWS Lambda using Terraform
 
 ### Module 3.2: Building a backend with Containers
 
