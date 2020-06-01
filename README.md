@@ -27,7 +27,8 @@ This course is designed to teach you about architecture and infrastructure, it i
 
 ## Cloud Native Academy Email Courses
 
-I am currently in the process of converting each module of the CNA into stand-alone email courses to be taken separately, you can see the current email courses on the [courses page](http://courses.thedevcoach.co.uk/). 
+I am currently in the process of converting each module of the CNA into stand-alone email courses to be taken separately, you can see the current email courses on the [courses page](http://courses.thedevcoach.co.uk/) ([AWS Course](https://aws.thedevcoach.co.uk/) | [Terraform Course](https://terraform.thedevcoach.co.uk/)
+| [Lambda Course](https://lambda.thedevcoach.co.uk/))
 
 ---
 
@@ -44,6 +45,8 @@ In this section we'll lay the foundations principles for Cloud Native engineerin
 ## Part 1: Getting Setup on the Cloud
 
 ### Module 1.1: Cloud Services, A Primer
+
+**Enroll On Email Course:** ✉️ [AWS Email Course](https://aws.thedevcoach.co.uk/)
 
 * [What and Where to Start Learning AWS as a Beginner](https://www.thedevcoach.co.uk/start-learning-aws-beginner/)
 * [Setting up an AWS Cloud Account](https://www.thedevcoach.co.uk/how-to-setup-an-aws-to-experiment-and-learn/)
@@ -109,7 +112,9 @@ In this section we'll lay the foundations principles for Cloud Native engineerin
 * What is a load balancer? 
 * How to instrument a back-end microservice (error handling, error codes, etc).
 
-### Module 3.2: Building a backend on Serverless
+### Module 3.2: Building a backend on Serverless (Lambda)
+
+**Enroll On Email Course:** ✉️ [Lambda Email Course](https://lambda.thedevcoach.co.uk/)
 
 * Serverless: An introduction
 * Serverless vs Functions vs FaaS vs ...: What's the difference?
