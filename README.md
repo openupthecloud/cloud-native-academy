@@ -43,20 +43,20 @@ In this section we'll lay the foundations principles for Cloud Native engineerin
 
 ## Part 1: Getting Setup on the Cloud
 
-### Module 1: Cloud Services, A Primer
+### Module 1.1: Cloud Services, A Primer
 
 * [What and Where to Start Learning AWS as a Beginner](https://www.thedevcoach.co.uk/start-learning-aws-beginner/)
 * [Setting up an AWS Cloud Account](https://www.thedevcoach.co.uk/how-to-setup-an-aws-to-experiment-and-learn/)
 * [How to setup your AWS account to experiment and learn](https://www.thedevcoach.co.uk/how-to-setup-an-aws-to-experiment-and-learn/)
 * [Using AWS access keys](https://www.thedevcoach.co.uk/aws-access-keys/)
 
-### Module 2: Software Pipelines
+### Module 1.2: Software Pipelines
 
 * What is a software pipeline? 
 * What is container-based CI?
 * An introduction to Github Actions
 
-### Module 3: Setting up Infrastructure As Code
+### Module 1.3: Setting up Infrastructure As Code
 
 * [What is Infrastructure As Code?](https://www.thedevcoach.co.uk/infrastructure-as-code/)
 * [What is Immutable Infrastructure?](https://www.thedevcoach.co.uk/what-is-immutable-infrastructure/)
@@ -66,7 +66,7 @@ In this section we'll lay the foundations principles for Cloud Native engineerin
 * [Building an infrastructure-as-code software pipeline](https://www.thedevcoach.co.uk/setup-terraform-aws-github-actions/)
 * [Your first Terraform: An S3 Bucket](https://www.thedevcoach.co.uk/terraform-github-actions/)
 
-#### What is Terraform?
+***Extra Credits**
 
 * [What is Infrastructure As Code?](https://www.thedevcoach.co.uk/infrastructure-as-code/)
 * [Learn Terraform Before Cloud](https://www.thedevcoach.co.uk/learn-terraform-before-cloud-computing/)
