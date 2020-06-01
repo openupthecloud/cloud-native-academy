@@ -56,37 +56,29 @@ In this section we'll lay the foundations principles for Cloud Native engineerin
 * What is container-based CI?
 * An introduction to Github Actions
 
-### Module 1.3: Setting up Infrastructure As Code
+### Module 1.3: Setting up Infrastructure As Code (Terraform)
+
+**Enroll On Email Course:** ✉️ [Terraform Email Course](https://terraform.thedevcoach.co.uk/)
 
 * [What is Infrastructure As Code?](https://www.thedevcoach.co.uk/infrastructure-as-code/)
 * [What is Immutable Infrastructure?](https://www.thedevcoach.co.uk/what-is-immutable-infrastructure/)
+* [Declarative Infrastructure As Code](https://www.thedevcoach.co.uk/declarative-vs-imperative-infra/)
+
 * [What is Terraform?](https://www.thedevcoach.co.uk/what-is-terraform/)
+* Terraform vs CloudFormation vs etc. 
 * [Why Learn Terraform Before Cloud Computing?](https://www.thedevcoach.co.uk/learn-terraform-before-cloud-computing/)
+* [The Six Fundamentals Of Terraform](https://www.thedevcoach.co.uk/the-six-fundamentals-of-terraform/)
 * [The Six Fundamental Building Blocks of Terraform?](https://www.thedevcoach.co.uk/the-six-fundamentals-of-terraform/)
 * [Building an infrastructure-as-code software pipeline](https://www.thedevcoach.co.uk/setup-terraform-aws-github-actions/)
+* [Setting Up Terraform With Github Actions](https://www.thedevcoach.co.uk/setup-terraform-aws-github-actions/)
 * [Your first Terraform: An S3 Bucket](https://www.thedevcoach.co.uk/terraform-github-actions/)
+* [10 Terraform Best Practices](https://www.thedevcoach.co.uk/terraform-best-practices/)
+* Managing & Understanding Terraform State
 
 ***Extra Credits**
 
-* [What is Infrastructure As Code?](https://www.thedevcoach.co.uk/infrastructure-as-code/)
-* [Learn Terraform Before Cloud](https://www.thedevcoach.co.uk/learn-terraform-before-cloud-computing/)
-* [What is Terraform?](https://www.thedevcoach.co.uk/what-is-terraform/)
-* Terraform vs CloudFormation vs etc. 
-* [Declarative Infrastructure As Code](https://www.thedevcoach.co.uk/declarative-vs-imperative-infra/)
-* [The Six Fundamentals Of Terraform](https://www.thedevcoach.co.uk/the-six-fundamentals-of-terraform/)
-
-#### Get Hands On With Terraform 
-
-* [Setting Up Terraform With Github Actions](https://www.thedevcoach.co.uk/setup-terraform-aws-github-actions/)
-* [Create an S3 website using Terraform](https://www.thedevcoach.co.uk/terraform-github-actions/)
-* Managing & Understanding Terraform State
-* [10 Terraform Best Practices](https://www.thedevcoach.co.uk/terraform-best-practices/)
-
-#### Advanced Terraform
-
 * [Migrating Manually Created Infrastructure](https://www.thedevcoach.co.uk/refactor-existing-infrastructure-with-terraform/)
 * [Understanding Terraform Modules](https://www.thedevcoach.co.uk/terraform-modules-tutorial/)
-
 
 ---
 
