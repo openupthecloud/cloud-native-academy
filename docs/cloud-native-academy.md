@@ -4,7 +4,7 @@ The Cloud Native Academy (CNA) is a free cloud native learning course composed o
 
 CNA is primarily aimed at mid to senior experience software engineers but would work equally well as a supplement or follow-up to a software engineering bootcamp. Engineers who already have experience writing code, but want to broaden their experience to also include cloud computing concepts. 
 
-## Why Is CNA Different?
+## Why Is The Cloud Native Academy Different?
 
 * **Completeness** — Many learning resources teach only individual technologies or concepts and don't show how the different concepts work together. The CNA is different. CNA shows you every part of building Cloud Native applications from Infrastructure As Code, to deploying using software pipelines and monitoring your application. 
 
