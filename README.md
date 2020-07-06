@@ -1,29 +1,24 @@
 # Cloud Native Academy (CNA)
 
-The Cloud Native Academy (CNA) is a free cloud native learning course composed of individual articles that have been written on [The Dev Coach](http://thedevcoach.co.uk/) blog. The following course and it's structure is designed to give software engineers learning cloud engineering the structure and direction they need around their learning. 
+The Cloud Native Academy (CNA) is a free cloud native learning course composed of individual articles that have been written on [The Dev Coach](http://thedevcoach.co.uk/) blog. My intention in the future is to make the articles into some form of video course, but for now you can consider this the beta. The following course (and it's structure) is designed to give software engineers that are learning cloud engineering structure and direction for their learning. 
 
 CNA is primarily aimed at mid to senior experience software engineers but would work equally well as a supplement or follow-up to a software engineering bootcamp. Engineers who already have experience writing code, but want to broaden their experience to also include cloud computing concepts. 
 
+Interested to learn Cloud Native Software Engineering? Read on. 
+
 ## Why Is The Cloud Native Academy Different?
 
-* **Completeness** — Many learning resources teach only individual technologies or concepts and don't show how the different concepts work together. The CNA is different. CNA shows you every part of building Cloud Native applications from Infrastructure As Code, to deploying using software pipelines and monitoring your application. 
+You might be wondering: "What's different about this 'course' compared to all the free information and courses that currently exist on the internet?". Let me address that question...
+
+* **Completeness** — Many learning resources teach only individual technologies or concepts and don't show how the different concepts work together. CNA shows you every part of building Cloud Native applications from Infrastructure As Code, to deploying using software pipelines and monitoring your application. 
 
 * **Software engineer-oriented** — Most training courses are either software engineering focused, or operations focused. But in the new world of cloud, software engineers need to be operationally aware, and code skilled. gives you the tools you need to setup your operations, but from an engineering perspective. 
 
-* **Hyper Modern** — Unlike most other training, the Cloud Native software engineering course is up-to-date with the latest and greatest trends to set you up for a great career.
-
-* **Real Examples** — Throughout CNA we'll keep referring back to one large, single use case example. Using this example you'll be able to tie in all the different concepts and ideas. 
-
-## What CNA Isn't
-
-This course is designed to teach you about architecture and infrastructure, it isn't a course on application development or design patterns. Whilst we tread a fine line into application we don't cover any. That means knowing any programming languages is entirely optional.
+* **Ultra Modern** — Unlike most other training, the Cloud Native software engineering course is at the cutting edge of the latest cloud native trends. This isn't an old curriculm that's been running for years, it's based on the lastest thinking and tools.
 
 ## Technology Covered
 
-* AWS S3
-* AWS Route53
-* AWS Networking
-* AWS Lambda
+* AWS, S3, Route53, Networking, Lambda, Node.JS
 
 ## Cloud Native Academy Email Courses
 
@@ -58,11 +53,13 @@ In this section we'll lay the foundations principles for Cloud Native engineerin
 * What is a software pipeline? 
 * What is container-based CI?
 * An introduction to Github Actions
+* How many software pipelines should you have?
 
-### Module 1.3: Setting up Infrastructure As Code (Terraform)
+### Module 1.3: Setting up Infrastructure As Code (Using Terraform)
 
 **Enroll On Email Course:** ✉️ [Terraform Email Course](https://terraform.thedevcoach.co.uk/)
 
+* Why is Terraform so popular?
 * [What is Infrastructure As Code?](https://www.thedevcoach.co.uk/infrastructure-as-code/)
 * [What is Immutable Infrastructure?](https://www.thedevcoach.co.uk/what-is-immutable-infrastructure/)
 * [Declarative Infrastructure As Code](https://www.thedevcoach.co.uk/declarative-vs-imperative-infra/)
@@ -92,7 +89,7 @@ In this section we'll lay the foundations principles for Cloud Native engineerin
 * What you need to know about CDN's? (TTL, Refreshing)
 * What is CloudFront? 
 * What are HTTPS certificates (what is ACM)
-* Assinging HTTPS certificates to a CloudFront distributions
+* Assigning HTTPS certificates to a CloudFront distributions
 * Introduction to DNS: What is Route53?
 * Associating a Route53 with CloudFront. 
 
@@ -100,29 +97,25 @@ In this section we'll lay the foundations principles for Cloud Native engineerin
 
 ## Part 3: Building the Back-end
 
-### Module 3.1: Back-End Architecture, A Primer
+### Module 3.1: Back-End Architecture
 
-* What is a Distributed System?
-* Considerations in a distributed systems world.
-* Serverless or Containers: How do you choose? 
-* Understanding high availability.
-* Why observability is important.
-* What is an asyncronous architecture?
-* [Building asynchronous architectures with SQS](https://www.thedevcoach.co.uk/aws-sqs-and-lambda/)
+* Overview of back-end cloud tech: Serverless, Containers, Queues, Load Balancers, Gateways, Encryption.
+* * How Tech Companies Organise Their Cloud Accounts
+* Service Communication Methods: Asyncronous vs Point-To-Point Architecture?
+  * [Building asynchronous architectures with SQS](https://www.thedevcoach.co.uk/aws-sqs-and-lambda/)
 * What is a load balancer? 
-* How to instrument a back-end microservice (error handling, error codes, etc).
 
-### Module 3.2: Building a backend on Serverless (Lambda)
+### Module 3.2: Building A Back-End With Serverless (Lambda)
 
 **Enroll On Email Course:** ✉️ [Lambda Email Course](https://lambda.thedevcoach.co.uk/)
 
-* Serverless: An introduction
-* Serverless vs Functions vs FaaS vs ...: What's the difference?
+* What Is Serverless?
 * What is AWS Lambda?
-* What are the events that can trigger Lambda?
+* Serverless vs Functions vs FaaS vs ...: What's the difference?
+* Serverless & Events: What Events Does AWS Lambda Integrate With?
 * Creating A Lambda Function (Using Terraform & Github Actions)
-* [Concepts you need to know before trying Serverless](https://www.thedevcoach.co.uk/the-6-serverless-concepts-you-need-to-know/)
-* [Serverless frameworks / approaches compared](https://www.thedevcoach.co.uk/serverless-approaches-comparison/)
+* [Concepts To Know Before Using Serverless](https://www.thedevcoach.co.uk/the-6-serverless-concepts-you-need-to-know/)
+* [Serverless Frameworks / Approaches Compared](https://www.thedevcoach.co.uk/serverless-approaches-comparison/)
 * Difference in Serverless between the Cloud Providers
 * [Misconceptions of Serverless & Lambda](https://www.thedevcoach.co.uk/misconceptions-serverless-aws-lambda/)
 * [Understanding the Lambda Console](https://www.thedevcoach.co.uk/understand-aws-lambda-console/)
@@ -151,8 +144,8 @@ In this section we'll lay the foundations principles for Cloud Native engineerin
 
 * What to test in a back-end application
 * Continuous Delivery / Deployment
-* Unit tests, component tests, integration tests and more
-* Making the case for component tests
+* Unit Tests, Component Tests, Integration Tests & More.
+* Making The Case For Component Tests
 * The perfect testing setup for a back-end Node.JS application 
 
 ---
@@ -162,5 +155,5 @@ In this section we'll lay the foundations principles for Cloud Native engineerin
 * What are the different types of monitoring you can do?
 * [How to structure your logs with phat-events](https://www.thedevcoach.co.uk/phat-event-logging/)
 * Setting up CloudWatch dashboards
-* Setting up alerts
-
+* What are alerts and why are they useful?
+* What is on-call culture?
