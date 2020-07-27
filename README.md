@@ -155,6 +155,7 @@ In this section we'll lay the foundations principles for Cloud Native engineerin
 * What are the different types of monitoring you can do?
 * [How to structure your logs with phat-events](https://www.thedevcoach.co.uk/phat-event-logging/)
 * [How to setup monitoring on existing software](https://www.thedevcoach.co.uk/monitoring-existing-software-practical-guide/)
+* [How to get Lambda logs into CloudWatch](https://www.thedevcoach.co.uk/lambda-logging-cloudwatch/)
 * Setting up CloudWatch dashboards
 * What are alerts and why are they useful?
 * What is on-call culture?
