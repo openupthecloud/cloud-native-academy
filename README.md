@@ -114,9 +114,13 @@ In this section we'll lay the foundations principles for Cloud Native engineerin
 * Serverless vs Functions vs FaaS vs ...: What's the difference?
 * Serverless & Events: What Events Does AWS Lambda Integrate With?
 * Creating A Lambda Function (Using Terraform & Github Actions)
+* Serverless Monitoring
 * [Concepts To Know Before Using Serverless](https://www.thedevcoach.co.uk/the-6-serverless-concepts-you-need-to-know/)
 * [Serverless Frameworks / Approaches Compared](https://www.thedevcoach.co.uk/serverless-approaches-comparison/)
 * Difference in Serverless between the Cloud Providers
+* How Lambda Works With Networks & VPC's
+* Lambda & API Gateway / ALB
+* Lambda & SNS / SQS
 * [Misconceptions of Serverless & Lambda](https://www.thedevcoach.co.uk/misconceptions-serverless-aws-lambda/)
 * [Understanding the Lambda Console](https://www.thedevcoach.co.uk/understand-aws-lambda-console/)
 * [Setup CloudWatch Logs with AWS Lambda](https://www.thedevcoach.co.uk/lambda-logging-cloudwatch/)
